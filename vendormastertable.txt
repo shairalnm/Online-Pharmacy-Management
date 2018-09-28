@@ -1,0 +1,11 @@
+CREATE TABLE `vendormaster` (
+  `vendor_id` int(11) NOT NULL AUTO_INCREMENT,
+  `vendor_name` varchar(45) NOT NULL,
+  `contactnumber1` varchar(10) NOT NULL,
+  `contactnumber2` varchar(10) NOT NULL,
+  `address1` varchar(105) NOT NULL,
+  `address2` varchar(105) NOT NULL,
+  `contactperson` varchar(45) NOT NULL,
+  `email_id` varchar(45) NOT NULL,
+  PRIMARY KEY (`vendor_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;

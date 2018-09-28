@@ -1,0 +1,12 @@
+CREATE TABLE `medicinemastertable` (
+  `medicine_id` int(11) NOT NULL AUTO_INCREMENT,
+  `medicine_name` varchar(45) NOT NULL,
+  `medicine_manufacturer` varchar(45) NOT NULL,
+  `formula` varchar(100) NOT NULL,
+  `composition` varchar(1000) NOT NULL,
+  `dosage` varchar(100) NOT NULL,
+  `usage1` varchar(100) NOT NULL,
+  `warning` varchar(100) NOT NULL,
+  `precaution` varchar(100) NOT NULL,
+  PRIMARY KEY (`medicine_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;

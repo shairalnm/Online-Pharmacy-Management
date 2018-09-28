@@ -1,0 +1,14 @@
+CREATE TABLE `purchasemastertable` (
+  `purchase_id` int(11) NOT NULL AUTO_INCREMENT,
+  `bill_number` int(11) NOT NULL,
+  `vendors_name` varchar(45) NOT NULL,
+  `date_of_purchase` date NOT NULL,
+  `medicine_name` varchar(45) NOT NULL,
+  `purchase_rate` float NOT NULL,
+  `sales_rate` float NOT NULL,
+  `batch` date NOT NULL,
+  `manufacturing_date` date NOT NULL,
+  `expiry_date` date NOT NULL,
+  `quantity` int(11) NOT NULL,
+  PRIMARY KEY (`purchase_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;

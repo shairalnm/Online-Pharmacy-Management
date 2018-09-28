@@ -1,0 +1,12 @@
+CREATE TABLE `salesmaster` (
+  `sales_id` int(11) NOT NULL AUTO_INCREMENT,
+  `bill_number` int(11) NOT NULL,
+  `customer_name` varchar(45) NOT NULL,
+  `doctor_name` varchar(45) NOT NULL,
+  `sales_date` date NOT NULL,
+  `medicine_name` varchar(45) NOT NULL,
+  `quantity` int(11) NOT NULL,
+  `batch` date NOT NULL,
+  PRIMARY KEY (`sales_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+SELECT * FROM pharmacy.salesmaster;
